@@ -2587,12 +2587,12 @@ PrefabInstance:
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnRelease.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -2620,11 +2620,12 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 790433226}
+      objectReference: {fileID: 82291196359177542, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: StartMoving
+      value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -2698,7 +2699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4351460498820170, guid: daebb73bab52a3b4d8eab37c26a8a62f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.33
+      value: -0.384
       objectReference: {fileID: 0}
     - target: {fileID: 4351460498820170, guid: daebb73bab52a3b4d8eab37c26a8a62f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7042,6 +7043,22 @@ PrefabInstance:
       propertyPath: OnRelease.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnRelease.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 82291196359177542, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnRelease.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnRelease.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4351460498820170, guid: daebb73bab52a3b4d8eab37c26a8a62f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.99281
@@ -7238,11 +7255,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4575080517692320, guid: f9663778c0da693408f8cf4c13bc051a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.76
+      value: -0.33
       objectReference: {fileID: 0}
     - target: {fileID: 4575080517692320, guid: f9663778c0da693408f8cf4c13bc051a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.7733145
+      value: 10.52
       objectReference: {fileID: 0}
     - target: {fileID: 4575080517692320, guid: f9663778c0da693408f8cf4c13bc051a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7283,12 +7300,12 @@ PrefabInstance:
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
       propertyPath: localNodes.Array.data[1].x
-      value: -4.761
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
       propertyPath: localNodes.Array.data[1].y
-      value: 5.213686
+      value: -5.971367
       objectReference: {fileID: 0}
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
